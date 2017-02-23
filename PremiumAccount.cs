@@ -57,7 +57,7 @@ namespace Stump.Server.WorldServer.Game.Conditions.Criterions
 			int num;
 			if (!int.TryParse(base.Literal, out num))
 			{
-				throw new System.Exception(string.Format("Cannot build PreniumAccountCriterion, {0} is not a valid prenium id", base.Literal));
+				throw new System.Exception(string.Format("Cannot build PremiumAccountCriterion, {0} is not a valid premium id", base.Literal));
 			}
 			this.HeIsPremium = (num == 1);
 		}
