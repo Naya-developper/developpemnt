@@ -1,5 +1,5 @@
            // Code de l'abonnement il vérifie dans la db si le personnage est ou non abonné (via un achat vip par ex) si il est abonné il est peut mettre des equipement vip
-           
+           // Se met dans Stump.Server.WorldServer.cs
            WorldClient[] array2 = array;
             for (int i = 0; i < array2.Length; i++)
             {
@@ -22,8 +22,9 @@
       }
             
 ____________________________________________________________________________________________________________________________________ 
-     //    Critère dans la db d'être abonné pour pouvoir équipé un item
-         
+   
+  //    Critère dans la db d'être abonné pour pouvoir équipé un item
+   //   Se met dans Stump.Server.WorldServer.Game.Conditions.Criterions.cs
 using Stump.Server.WorldServer.Game.Actors.RolePlay.Characters;
 using System;
 namespace Stump.Server.WorldServer.Game.Conditions.Criterions
